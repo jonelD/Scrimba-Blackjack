@@ -65,10 +65,6 @@ function newCard() {
 }
 
 function reset() {
-if (cards.length === 0)
-{
-  newCard() = false
-}
   isAlive = true
   hasBlackJack = false
   cardsEl.textContent = "Cards: "
